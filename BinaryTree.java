@@ -26,8 +26,8 @@ public class BinaryTree {
     }
     private void populate(Scanner scanner, Node node){
         System.out.println("left : "+ node.value);
-        boolean left = scanner.nextInt();
-        node.left = new Node(value);
+        // boolean left = scanner.nextInt();
+        // node.left = new Node(value);
         populate(scanner, node.left);
     }
 }
